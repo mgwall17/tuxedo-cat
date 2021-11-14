@@ -5,6 +5,7 @@ import BlockOne from '../content/BlockOne.mdx'
 import BlockTwo from "../content/BlockTwo.mdx";
 import BlockThree from "../content/BlockThree.mdx";
 import BlockFour from "../content/BlockFour.mdx";
+import SideNav from "../components/sideNav.js"
 
 
 export default function Home() {
@@ -16,12 +17,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         
       </Head>
-
+<SideNav />
       <div className="container">
         <h1 className="display-2 text-center">
           Welcome to <a href="https://cyverse.org">CyVerse!</a>
         </h1>
         <BlockOne />
+        <ParallaxTest />
         <BlockTwo />
         <ParallaxTest />
         <BlockThree />
