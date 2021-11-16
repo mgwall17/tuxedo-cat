@@ -9,12 +9,12 @@ const ParallaxOne = () => (
     layers={[
       {
         image:
-          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/stats.png",
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_One.png",
         amount: 0.1,
       },
       {
         image:
-          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/stats.png",
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_Two.png",
         amount: 0.1,
       },
     ]}
