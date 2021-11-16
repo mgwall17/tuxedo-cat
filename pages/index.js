@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import ParallaxOne from '../components/ParallaxOne'
+import ParallaxTwo from "../components/ParallaxTwo";
 import BlockOne from '../content/BlockOne.mdx'
 import BlockTwo from "../content/BlockTwo.mdx";
 import BlockThree from "../content/BlockThree.mdx";
@@ -23,11 +24,12 @@ export default function Home() {
         </h1>
         <BlockOne />
       </div>
-
       <ParallaxOne />
       <div className="container">
         <BlockTwo />
-        <ParallaxOne />
+      </div>
+      <ParallaxTwo />
+      <div className="container">
         <BlockThree />
         <BlockFour />
       </div>

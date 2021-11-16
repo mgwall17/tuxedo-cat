@@ -1,6 +1,6 @@
 
 const SideNav = () => (
-  <div className="position-fixed">
+  <div className="position-fixed zindex-fixed">
     <ul className="nav flex-column">
       <li className="nav-item">
         <a className="nav-link" href="#">

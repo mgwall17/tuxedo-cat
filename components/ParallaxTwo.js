@@ -1,7 +1,5 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import Image from "next/image"
-
-
+import Image from "next/image";
 
 const ParallaxOne = () => (
   <ParallaxBanner
@@ -9,12 +7,12 @@ const ParallaxOne = () => (
     layers={[
       {
         image:
-          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_Two.png",
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/Two_Layer_Two.png",
         amount: -0.5,
       },
       {
         image:
-          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_One.png",
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/Two_Layer_One.png",
         amount: 0.5,
       },
     ]}
@@ -26,4 +24,4 @@ const ParallaxOne = () => (
   </ParallaxBanner>
 );
 
-export default ParallaxOne
+export default ParallaxOne;
