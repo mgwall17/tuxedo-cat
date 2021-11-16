@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import ParallaxTest from '../components/ParallaxTest'
+import ParallaxOne from '../components/ParallaxOne'
 import BlockOne from '../content/BlockOne.mdx'
 import BlockTwo from "../content/BlockTwo.mdx";
 import BlockThree from "../content/BlockThree.mdx";
@@ -23,9 +23,9 @@ export default function Home() {
           Welcome to <a href="https://cyverse.org">CyVerse!</a>
         </h1>
         <BlockOne />
-        <ParallaxTest />
+        <ParallaxOne />
         <BlockTwo />
-        <ParallaxTest />
+        <ParallaxOne />
         <BlockThree />
         <BlockFour />
       </div>

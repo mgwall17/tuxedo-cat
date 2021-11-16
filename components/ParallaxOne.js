@@ -1,16 +1,18 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import Image from "next/image";
+import Image from "next/image"
 
-const ParallaxTest = () => (
+
+
+const ParallaxOne = () => (
   <ParallaxBanner
     className="your-class"
     layers={[
       {
-        image: "https://source.unsplash.com/random/800x600",
+        image: "../public/images/stat.png",
         amount: 0.4,
       },
       {
-        image: "https://source.unsplash.com/random/800x600",
+        image: "../public/images/stat.png",
         amount: 0.5,
       },
     ]}
@@ -22,4 +24,4 @@ const ParallaxTest = () => (
   </ParallaxBanner>
 );
 
-export default ParallaxTest
+export default ParallaxOne
