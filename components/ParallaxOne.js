@@ -1,5 +1,4 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import Image from "next/image"
 
 
 
@@ -10,12 +9,12 @@ const ParallaxOne = () => (
       {
         image:
           "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_Two.png",
-        amount: -0.5,
+        amount: -0.3,
       },
       {
         image:
           "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/One_Layer_One.png",
-        amount: 0.5,
+        amount: 0.3,
       },
     ]}
     style={{

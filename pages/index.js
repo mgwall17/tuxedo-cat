@@ -6,6 +6,7 @@ import BlockOne from '../content/BlockOne.mdx'
 import BlockTwo from "../content/BlockTwo.mdx";
 import BlockThree from "../content/BlockThree.mdx";
 import BlockFour from "../content/BlockFour.mdx";
+import Testimonials from "../content/Testimonials.mdx";
 import SideNav from "../components/sideNav.js"
 
 
@@ -27,6 +28,7 @@ export default function Home() {
       <ParallaxOne />
       <div className="container">
         <BlockTwo />
+        <Testimonials />
       </div>
       <ParallaxTwo />
       <div className="container">
