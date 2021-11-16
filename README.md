@@ -1,6 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Editing Content
 
-## Getting Started
+Make sure you are on the content branch, not Main. Navigate to the content folder and edit the block you'd like to change. When you are satisfied with your changes submit a merge request. Once accepted it will be added to the main branch and https://tuxedo-cat.vercel.app/ will refresh with changes after a few minutes.
+
+## Local Development
 
 First, run the development server:
 
