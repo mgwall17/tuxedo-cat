@@ -8,12 +8,14 @@ const ParallaxOne = () => (
     className="your-class"
     layers={[
       {
-        image: "../public/images/stat.png",
-        amount: 0.4,
+        image:
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/stats.png",
+        amount: 0.1,
       },
       {
-        image: "../public/images/stat.png",
-        amount: 0.5,
+        image:
+          "https://raw.githubusercontent.com/mgwall17/tuxedo-cat/main/public/images/stats.png",
+        amount: 0.1,
       },
     ]}
     style={{
