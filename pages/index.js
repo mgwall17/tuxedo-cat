@@ -8,7 +8,7 @@ import BlockThree from "../content/BlockThree.mdx";
 import BlockFour from "../content/BlockFour.mdx";
 import Testimonials from "../content/Testimonials.mdx";
 import SideNav from "../components/sideNav.js"
-
+import Logo from "../public/logo.js"
 
 export default function Home() {
   return (
@@ -20,8 +20,8 @@ export default function Home() {
       </Head>
       <SideNav />
       <div className="container">
-        <h1 className="display-2 text-center">
-          Welcome to <a href="https://cyverse.org">CyVerse!</a>
+        <h1 className="display-2 text-center mt-3">
+        <a href="https://cyverse.org" alt="CyVerse"> <Logo /> </a>
         </h1>
         <BlockOne />
       </div>
