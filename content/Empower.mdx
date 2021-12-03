@@ -6,14 +6,15 @@ import { mdiSchool } from '@mdi/js';
 import { mdiChairSchool } from '@mdi/js'; 
 import Icon from "@mdi/react";
 
-<div className="container">
-  <h2 id="welcome">How does CyVerse empower your Science?</h2>
+<div className="container-md border rounded-3 shadow-lg p-5 mb-4">
+  <h2 id="welcome" class="display-4">How does CyVerse empower your Science?</h2>
 <p class="lead my-4">
     CyVerse has a proven track record for being a reputable resource for
     cyberinfrasturcture services. You are more competitive using CyVerse rather
     than standing up services on your own. You don’t have to maintain your own
     servers, pay for IT services, or worry about security and replication.
-    CyVerse takes care of that for you. See all the different ways we empower our users below:
+    CyVerse takes care of that for you. </p>
+    <p class="lead">See all the different ways we empower our users below:
   </p>
   <div class="row g-4 row-cols-1 row-cols-lg-2">
     <div class="col d-flex align-items-start">
@@ -22,7 +23,7 @@ import Icon from "@mdi/react";
       </div>
       <div>
         <h3>For Researchers</h3>
-        <p>
+        <p class="lh-base">
           A high school student is trying to analyze NEON Lidar data and drone
           imagery. His home internet connection is too slow to handle these
           large datasets. After signing up for a CyVerse account, he was able to
@@ -34,12 +35,11 @@ import Icon from "@mdi/react";
     </div>
     <div class="col d-flex align-items-start">
       <div class="icon-square text-dark flex-shrink-0 me-3">
-        <Icon path={mdiAccountGroup} size="40px" color="#0971ab" />
+        <Icon path={mdiAccountGroup} size="40px" color="#378F43" />
       </div>
       <div>
         <h3>For Collaborators</h3>
-        <p>
-          {" "}
+        <p class="lh-base">
           A long-standing goal in astrophysics is to directly observe and image
           (i.e., create a picture) of a black hole. To that end, the Event
           Horizon Telescope’s international team of collaborators published in
@@ -54,11 +54,11 @@ import Icon from "@mdi/react";
   <div class="row g-4 row-cols-1 row-cols-lg-2">
     <div class="col d-flex align-items-start">
       <div class="icon-square text-dark flex-shrink-0 me-3">
-        <Icon path={mdiCodeJson} size="40px" color="#0971ab" />
+        <Icon path={mdiCodeJson} size="40px" color="#AA2173" />
       </div>
       <div>
         <h3>For Developers</h3>
-        <p>
+        <p class="lh-base">
           Software developers craft the tools of modern science, and
     CyVerse provides the collaboration space where they can get creative,
     connect with end users, and publish their products. A developer with a keen
@@ -73,11 +73,11 @@ import Icon from "@mdi/react";
     </div>
     <div class="col d-flex align-items-start">
       <div class="icon-square text-dark flex-shrink-0 me-3">
-        <Icon path={mdiSchool} size="40px" color="#0971ab" />
+        <Icon path={mdiSchool} size="40px" color="#F1592B" />
       </div>
       <div>
         <h3>For Training</h3>
-        <p>
+        <p class="lh-base">
           Today, all science is computer science, yet many curricula
     don’t provide the computational science and data analysis training
     researchers need to get work done. CyVerse's Container Camp and Foundational
@@ -93,11 +93,11 @@ import Icon from "@mdi/react";
     <div class="row py-4 g-4 row-cols-1 row-cols-lg-2">
     <div class="col d-flex align-items-start">
       <div class="icon-square text-dark flex-shrink-0 me-3">
-        <Icon path={mdiChairSchool} size="40px" color="#0971ab" />
+        <Icon path={mdiChairSchool} size="40px" color="#4A2E8D" />
       </div>
       <div>
-        <h3>For Teaching</h3>
-        <p>
+        <h3 color="#4A2E8D">For Teaching</h3>
+        <p class="lh-base">
           Software developers craft the tools of modern science, and
     CyVerse provides the collaboration space where they can get creative,
     connect with end users, and publish their products. A developer with a keen
@@ -110,32 +110,10 @@ import Icon from "@mdi/react";
         </p>
         </div>
       </div>
+      <div class="col justify-content-end">
+      <img src="/images/analyzeImage.png" width="100%"/>
+      </div>
     </div>
 
 </div>
-<div className="container">
-  <h2 class="mb-4">What is Cyberinfrastructure?</h2>
-  <p class="lead">
-    <span class="fw-bold">Cyberinfrastructure</span>, also called CI or
-    computational infrastructure,provides scalable solutions to doing science in
-    the age of big data, machine learning, and artificial intelligence. Physical
-    infrastructure, such as labs, sequencing centers, and greenhouses, makes it
-    easy to generate huge amounts of data. But it takes CyVerse
-    cyberinfrastructure—the hardware, software, and people of CyVerse—to enable
-    you to easily store, share, and analyze those data for the scientific
-    discoveries that may lie within.
-  </p>
-  <p class="lead">
-    <span class="fw-bold">With CyVerse</span>, you and your collaborators can
-    now tackle previously unapproachable research questions whose computational
-    requirements were either too large, too complex, or simply unknown.
-  </p>
-  <div>
-    <Image
-      src="/images/stats.png"
-      layout="responsive"
-      height="230px"
-      width="600px"
-    />
-  </div>
-</div>
+

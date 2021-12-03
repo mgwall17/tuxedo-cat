@@ -7,7 +7,7 @@
  */
 :root {
   --bs-blue: #0971ab;
-  --bs-indigo: #6610f2;
+  --bs-indigo: #004471;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
@@ -114,6 +114,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+  color:#004471;
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -123,6 +124,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  color:#48515F;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
