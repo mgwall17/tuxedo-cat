@@ -36,8 +36,6 @@ export default function Home() {
       <ParallaxTwo />
       <div className="container-md">
         <OurTools />
-        <DEBlock />
-        <DataStoreDataCommons />
         <GettingStarted />
       </div>
       <footer>
