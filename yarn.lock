@@ -349,6 +349,16 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz"
   "version" "1.2.0"
 
+"@mdi/js@^6.5.95":
+  "integrity" "sha512-x/bwEoAGP+Mo10Dfk5audNIPi7Yz8ZBrILcbXLW3ShOI/njpgodzpgpC2WYK3D2ZSC392peRRemIFb/JsyzzYQ=="
+  "resolved" "https://registry.npmjs.org/@mdi/js/-/js-6.5.95.tgz"
+  "version" "6.5.95"
+
+"@mdi/react@^1.5.0":
+  "integrity" "sha512-NztRgUxSYD+ImaKN94Tg66VVVqXj4SmlDGzZoz48H9riJ+Awha56sfXH2fegw819NWo7KI3oeS1Es0lNQqwr0w=="
+  "resolved" "https://registry.npmjs.org/@mdi/react/-/react-1.5.0.tgz"
+  "version" "1.5.0"
+
 "@mdx-js/loader@^1.6.22", "@mdx-js/loader@>=0.15.0":
   "integrity" "sha512-9CjGwy595NaxAYp0hF9B/A0lH6C8Rms97e2JS9d3jVUtILn6pT5i5IV965ra3lIWc7Rs1GG1tBdVF7dCowYe6Q=="
   "resolved" "https://registry.npmjs.org/@mdx-js/loader/-/loader-1.6.22.tgz"

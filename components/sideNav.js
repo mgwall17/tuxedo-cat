@@ -1,30 +1,26 @@
 
 const SideNav = () => (
-  <div className="position-fixed zindex-fixed">
-    <ul className="nav flex-column">
-      <li className="nav-item">
-        <a className="nav-link" href="#">
-          Welcome
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" aria-current="page" href="#why">
-          Why CyVerse?
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#tools">
-          Our Tools
-        </a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link">Our Services</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link">Get Started</a>
-      </li>
-    </ul>
-  </div>
+  <nav className="navbar-nav me-auto mb-2 mb-lg-0">
+    <div className="container-fluid">
+      <div className="">
+        <div className="nav-item">
+          <a className="nav-link" href="#welcome">
+            Contents
+          </a>
+        </div>
+        <div className="nav-item">
+          <a className="nav-link" href="#tools">
+            Tools
+          </a>
+        </div>
+        <div className="nav-item">
+          <a className="nav-link" href="#welcome">
+            Contents
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
 );
 
 export default SideNav;
