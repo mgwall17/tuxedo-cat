@@ -6,11 +6,8 @@ import Empower from "../content/Empower.mdx";
 import OurServices from "../content/OurServices.mdx";
 import OurTools from "../content/OurTools.mdx";
 import GettingStarted from "../content/GettingStarted.mdx";
-import Testimonials from "../content/Testimonials.mdx";
-import SideNav from "../components/sideNav.js";
 import Logo from "../public/logo.js";
 
-import WhatIs from "../content/WhatIs.mdx"
 
 export default function Home() {
   return (
@@ -27,7 +24,6 @@ export default function Home() {
           </a>
         </h1>
         <Empower />
-        <WhatIs />
       </div>
       <ParallaxOne />
       <div>
