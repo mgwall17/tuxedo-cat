@@ -7,6 +7,7 @@ import OurServices from "../content/OurServices.mdx";
 import OurTools from "../content/OurTools.mdx";
 import GettingStarted from "../content/GettingStarted.mdx";
 import Logo from "../public/logo.js";
+import Footer from "../content/Footer.mdx"
 
 
 export default function Home() {
@@ -39,20 +40,7 @@ export default function Home() {
           <OurTools />
           <GettingStarted />
         </div>
-        <footer className="row">
-          <div className="nav-item col">
-            <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              www.cyverse.org
-            </a>
-          </div>
-          <div className="nav-item col">
-            <a>info@cyverse.org</a>
-          </div>
-        </footer>
+         <Footer />
       </div>
     </div>
   );
