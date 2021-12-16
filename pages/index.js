@@ -31,16 +31,16 @@ export default function Home() {
       <ParallaxOne />
       <div className="container">
         <div>
-          <OurServices />
+          <OurTools />
         </div>
       </div>
       <ParallaxTwo />
       <div className="container">
         <div>
-          <OurTools />
+          <OurServices />
           <GettingStarted />
         </div>
-         <Footer />
+        <Footer />
       </div>
     </div>
   );
