@@ -22,7 +22,7 @@ export default function Data() {
         <Header />
         <a
           href="https://learning.cyverse.org/projects/data_store_guide/en/latest/"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img
             src="/images/Data.jpg"

@@ -22,7 +22,7 @@ export default function Data() {
         <Header />
         <a
           href="https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html"
-          target="_blank"
+          target="_blank" rel="noreferrer"
         >
           <img
             src="/images/Interact.jpg"
