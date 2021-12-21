@@ -4,7 +4,7 @@ function Logo(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 937.5 205"
-      width="500px"
+      width="inherit"
     >
       <defs>
         <linearGradient

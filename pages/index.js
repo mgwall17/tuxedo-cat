@@ -20,12 +20,18 @@ export default function Home() {
       </Head>
       <Nav />
       <div className="container">
-        <div style={{ marginTop: "10vh" }} id="empower">
-          <h1 className="display-2 text-center mb-4">
-            <a href="https://cyverse.org" alt="CyVerse">
-              <Logo />
-            </a>
-          </h1>
+        <div id="empower">
+          <div className="justify-content-center mb-2 mt-4 mt-sm-5 ">
+            <div style={{ maxWidth: "500px", minWidth: "200px", margin:"auto" }}>
+              <a
+                href="https://cyverse.org"
+                alt="CyVerse"
+                style={{ maxWidth: "500px", minWidth: "200px" }}
+              >
+                <Logo />
+              </a>
+            </div>
+          </div>
           <Empower />
         </div>
       </div>
