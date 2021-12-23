@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>CyVerse</title>
+        <title>CyVerse | Overview</title>
         <meta name="description" content="Digital brochure for CyVerse.org" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

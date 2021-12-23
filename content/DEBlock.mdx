@@ -4,18 +4,18 @@ px-4  px-sm-1 px-xs-1
  align-top">
     <h3 className="mb-4 mb-sm-2 mb-xs-2  text-cter">Discovery Environment</h3>
     <div className="mx-auto">
-    
+    <div style={{height:'260px'}}>
       <p className="text-sm-start text-cter">CyVerse’s magic starts with the Discovery Environment (DE), a simple web interface for managing data, running analyses, and visualizing and sharing results.</p>
       <p className="text-sm-start text-cter">Apps in the DE’s Visual and Interactive Compute Environment (VICE) allow you to apply basic deep and machine learning techniques to your data, and use integrated development environments, like Jupyter and RStudio, to interact with your data.</p>
       <p className="text-sm-start text-cter">Educators can reserve VICE resources for classes, labs and workshops, giving students consistent, reproducible, containerized workflows to analyze their datasets.</p>
-      
+      </div>
       <div className="d-grid gap-2 d-sm-flex  mb-5">
-        <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Learn More</button>
-        <button type="button" className="btn btn-outline-secondary btn-lg px-4">Browse Documentation</button>
+        <a href="https://cyverse.org/discovery-environment" target="_blank" rel="noreferrer"><button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Learn More</button></a>
+       <a href="https://de.cyverse.org/" target="_blank" rel="noreferrer"> <button type="button" className="btn btn-outline-secondary btn-lg px-4">Launch</button></a>
       </div>
     </div>
     <div className="overflow-hidden">
-      <div className="d-none d-sm-block d-xs-block">
+      <div className="d-none d-sm-block d-xs-block" data-bs-toggle="tooltip" data-bs-placement="left" title="Discovery Environment">
         <img src="/images/DEScreenshot.png" className="img-fluid border rounded-3 shadow mb-4" alt="Screenshot of Discovery Environment" loading="lazy" width="700" height="500"/>
       </div>
     </div>
