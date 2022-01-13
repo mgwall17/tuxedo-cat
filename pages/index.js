@@ -19,7 +19,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div className="container">
+      <div className="container-fluid">
         <div id="empower">
           <div className="justify-content-center mb-2 mt-4 mt-sm-5 ">
             <div style={{ maxWidth: "500px", minWidth: "200px", margin:"auto" }}>
@@ -36,13 +36,13 @@ export default function Home() {
         </div>
       </div>
       <ParallaxOne />
-      <div className="container">
+      <div className="container-fluid">
         <div>
           <OurTools />
         </div>
       </div>
       <ParallaxTwo />
-      <div className="container">
+      <div className="container-fluid">
         <div>
           <OurServices />
           <GettingStarted />
