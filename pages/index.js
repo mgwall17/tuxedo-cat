@@ -15,14 +15,17 @@ export default function Home() {
     <div>
       <Head>
         <title>CyVerse | Overview</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Digital brochure for CyVerse.org" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
-      <div className="container-fluid">
+      <div className="container-lg">
         <div id="empower">
           <div className="justify-content-center mb-2 mt-4 mt-sm-5 ">
-            <div style={{ maxWidth: "500px", minWidth: "200px", margin:"auto" }}>
+            <div
+              style={{ maxWidth: "500px", minWidth: "200px", margin: "auto" }}
+            >
               <a
                 href="https://cyverse.org"
                 alt="CyVerse"
@@ -36,13 +39,13 @@ export default function Home() {
         </div>
       </div>
       <ParallaxOne />
-      <div className="container-fluid">
+      <div className="container-lg">
         <div>
           <OurTools />
         </div>
       </div>
       <ParallaxTwo />
-      <div className="container-fluid">
+      <div className="container-lg">
         <div>
           <OurServices />
           <GettingStarted />
